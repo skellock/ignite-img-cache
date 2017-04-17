@@ -1,0 +1,37 @@
+{
+  "name": "ignite-img-cache",
+  "description": "An ignite plugin for react-native-img-cache.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Steve Kellock",
+    "email": "steve@kellock.ca"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "ava",
+    "coverage": "nyc ava",
+    "shipit": "np"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "keywords": [
+    "ignite",
+    "ignite-plugin",
+    "react-native",
+    "image-cache",
+    "img-cache",
+    "image-cash-money"
+  ],
+  "url": "https://github.com/skellock/ignite-img-cache",
+  "repository": "skellock/ignite-img-cache",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-eslint": "^7.1.1",
+    "np": "^2.12.0",
+    "nyc": "^10.1.2",
+    "sinon": "^2.1.0",
+    "standard": "^10.0.2"
+  }
+}
